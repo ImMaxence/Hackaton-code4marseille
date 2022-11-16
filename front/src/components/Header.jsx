@@ -1,23 +1,21 @@
 import React from 'react';
 import { useNavigate } from "react-router-dom";
 
-
-
 const Header = () => {
 
+    const navigate = useNavigate();
+
     const handleHome = () => {
-      navigate('/home');
+        navigate('/home');
+    }
+
+    const handleAcc = () => {
+        navigate('/account');
     }
 
     const handleLike = () => {
         navigate('/like');
-      }
-
-      const handleLogin = () => {
-        navigate('/');
-      }
-
-    const navigate = useNavigate();
+    }
 
     return (
         <>
@@ -27,8 +25,8 @@ const Header = () => {
                 </div>
                 <div className="but_nav">
                     <button onClick={handleHome}>Accueil</button>
-                    <button onClick={handleLike}>Mes likes</button>
-                    <button onClick={handleLogin}>Déconnexion</button>
+                    <button onClick={handleAcc}>Compte</button>
+                    <button onClick={handleLike}>Like</button>
                 </div>
             </div>
         </>

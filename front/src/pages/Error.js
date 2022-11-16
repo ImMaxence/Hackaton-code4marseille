@@ -4,7 +4,6 @@ import Error_page from '../components/Error_page';
 const Error = () => {
     return (
         <>
-
             <Error_page />
         </>
     );

@@ -1,0 +1,70 @@
+{
+  "ath": [
+    {
+      "id": 1,
+      "name": "Maxence",
+      "nationalite": "FR",
+      "sport": "Voile",
+      "genre": "Homme",
+      "photo": "https://i.postimg.cc/VvZvKRys/voile.jpg",
+      "email": "maxence@epitech.eu",
+      "password": "123456",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam quam perferendis alias consequuntur voluptate ut expedita harum ab at, eum, nesciunt excepturi quae sit dicta accusantium tempore debitis amet dolorem cupiditate et! Aspernatur nisi quos ex mollitia error dolor et iure repudiandae expedita voluptatum dolores, possimus excepturi temporibus? Rerum unde magni, rem, consequuntur perspiciatis quae culpa officia necessitatibus exercitationem sunt eum in blanditiis velit quasi. Reiciendis, obcaecati incidunt distinctio laboriosam unde sint culpa optio tenetur non suscipit. Praesentium saepe, amet voluptate repellat eligendi consectetur ut magni modi rem minus animi error. Facere dicta odit, aperiam maxime amet esse architecto impedit."
+    },
+    {
+      "id": 2,
+      "name": "Vincent",
+      "nationalite": "ES",
+      "sport": "Natation",
+      "genre": "Homme",
+      "photo": "https://i.postimg.cc/fk4nWtmj/natation.jpg",
+      "email": "vincent@epitech.eu",
+      "password": "123456",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam quam perferendis alias consequuntur voluptate ut expedita harum ab at, eum, nesciunt excepturi quae sit dicta accusantium tempore debitis amet dolorem cupiditate et! Aspernatur nisi quos ex mollitia error dolor et iure repudiandae expedita voluptatum dolores, possimus excepturi temporibus? Rerum unde magni, rem, consequuntur perspiciatis quae culpa officia necessitatibus exercitationem sunt eum in blanditiis velit quasi. Reiciendis, obcaecati incidunt distinctio laboriosam unde sint culpa optio tenetur non suscipit. Praesentium saepe, amet voluptate repellat eligendi consectetur ut magni modi rem minus animi error. Facere dicta odit, aperiam maxime amet esse architecto impedit."
+    },
+    {
+      "id": 3,
+      "name": "Claire",
+      "nationalite": "FR",
+      "sport": "Badminton",
+      "genre": "Femme",
+      "photo": "https://i.postimg.cc/L8D9DDjc/bad.jpg",
+      "email": "claire@epitech.eu",
+      "password": "123456",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam quam perferendis alias consequuntur voluptate ut expedita harum ab at, eum, nesciunt excepturi quae sit dicta accusantium tempore debitis amet dolorem cupiditate et! Aspernatur nisi quos ex mollitia error dolor et iure repudiandae expedita voluptatum dolores, possimus excepturi temporibus? Rerum unde magni, rem, consequuntur perspiciatis quae culpa officia necessitatibus exercitationem sunt eum in blanditiis velit quasi. Reiciendis, obcaecati incidunt distinctio laboriosam unde sint culpa optio tenetur non suscipit. Praesentium saepe, amet voluptate repellat eligendi consectetur ut magni modi rem minus animi error. Facere dicta odit, aperiam maxime amet esse architecto impedit."
+    },
+    {
+      "id": 4,
+      "name": "Valentin",
+      "nationalite": "IT",
+      "sport": "Escrime",
+      "genre": "Homme",
+      "photo": "https://i.postimg.cc/pdZ4F1bS/esc.jpg",
+      "email": "claire@epitech.eu",
+      "password": "123456",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam quam perferendis alias consequuntur voluptate ut expedita harum ab at, eum, nesciunt excepturi quae sit dicta accusantium tempore debitis amet dolorem cupiditate et! Aspernatur nisi quos ex mollitia error dolor et iure repudiandae expedita voluptatum dolores, possimus excepturi temporibus? Rerum unde magni, rem, consequuntur perspiciatis quae culpa officia necessitatibus exercitationem sunt eum in blanditiis velit quasi. Reiciendis, obcaecati incidunt distinctio laboriosam unde sint culpa optio tenetur non suscipit. Praesentium saepe, amet voluptate repellat eligendi consectetur ut magni modi rem minus animi error. Facere dicta odit, aperiam maxime amet esse architecto impedit."
+    },
+    {
+      "id": 3,
+      "name": "Emma",
+      "nationalite": "ES",
+      "sport": "Handball",
+      "genre": "Femme",
+      "photo": "https://i.postimg.cc/dVcxSKJX/hand.jpg",
+      "email": "claire@epitech.eu",
+      "password": "123456",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam quam perferendis alias consequuntur voluptate ut expedita harum ab at, eum, nesciunt excepturi quae sit dicta accusantium tempore debitis amet dolorem cupiditate et! Aspernatur nisi quos ex mollitia error dolor et iure repudiandae expedita voluptatum dolores, possimus excepturi temporibus? Rerum unde magni, rem, consequuntur perspiciatis quae culpa officia necessitatibus exercitationem sunt eum in blanditiis velit quasi. Reiciendis, obcaecati incidunt distinctio laboriosam unde sint culpa optio tenetur non suscipit. Praesentium saepe, amet voluptate repellat eligendi consectetur ut magni modi rem minus animi error. Facere dicta odit, aperiam maxime amet esse architecto impedit."
+    },
+    {
+      "id": 3,
+      "name": "Yona",
+      "nationalite": "IT",
+      "sport": "Tennis",
+      "genre": "Femme",
+      "photo": "https://i.postimg.cc/k4G1tJyV/tennis.jpg",
+      "email": "claire@epitech.eu",
+      "password": "123456",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam quam perferendis alias consequuntur voluptate ut expedita harum ab at, eum, nesciunt excepturi quae sit dicta accusantium tempore debitis amet dolorem cupiditate et! Aspernatur nisi quos ex mollitia error dolor et iure repudiandae expedita voluptatum dolores, possimus excepturi temporibus? Rerum unde magni, rem, consequuntur perspiciatis quae culpa officia necessitatibus exercitationem sunt eum in blanditiis velit quasi. Reiciendis, obcaecati incidunt distinctio laboriosam unde sint culpa optio tenetur non suscipit. Praesentium saepe, amet voluptate repellat eligendi consectetur ut magni modi rem minus animi error. Facere dicta odit, aperiam maxime amet esse architecto impedit."
+    }
+  ]
+}

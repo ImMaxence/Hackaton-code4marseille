@@ -1,0 +1,44 @@
+{
+  "login": [
+    {
+      "email": "maxence@epitech.eu",
+      "password": "123456",
+      "id": 1
+    },
+    {
+      "email": "maxou@epitech.eu",
+      "password": "123456",
+      "id": 2
+    },
+    {
+      "email": "",
+      "password": "",
+      "id": 3
+    },
+    {
+      "email": "ddddd@",
+      "password": "kkkkkk",
+      "id": 4
+    },
+    {
+      "email": "maxmaxou1713@gmail.com",
+      "password": "4444",
+      "id": 5
+    },
+    {
+      "email": "",
+      "password": "",
+      "id": 6
+    },
+    {
+      "email": "maxmaxou1713@gmail.com",
+      "password": "123azert",
+      "id": 7
+    },
+    {
+      "email": "maxence.bonnici2002@gmail.com",
+      "password": "vhgyugyu",
+      "id": 8
+    }
+  ]
+}

@@ -162,11 +162,11 @@ $grey: #cccccc;
 			transition: all 0.30s ease-in-out;
 
 			&:hover {
-				background: darken($jaune_olympique, 7%);
+				background: darken($vert_olympique, 7%);
 			}
 
 			&:focus {
-				background: darken($jaune_olympique, 7%);
+				background: darken($vert_olympique, 7%);
 			}
 		}
 	}

@@ -2,7 +2,6 @@ import React from 'react';
 import { useState } from 'react';
 import { useNavigate } from "react-router-dom";
 import axios from 'axios';
-import Footer from './Footer';
 
 const Login_page = () => {
 
@@ -21,18 +20,28 @@ const Login_page = () => {
 
     const handleSubmit = () => {
         let data = { email: email_input, password: password_input };
-        axios
-            .post("link", data)
-            .then((response) => {
-                alert('success')
-                console.log('log response ' + response)
-                navigate('/home');
+        if (password_input.length > 1 && email_input.length > 1) {
+            axios
+                .post("http://localhost:8080/login", data)
+                .then((response) => {
+                    console.log('log response ' + JSON.stringify(response))
 
-            })
-            .catch((error) => {
-                console.log('log error ' + error);
-                setErrMsg('Username or password is wrong')
-            });
+                    if (response.data.password === password_input && response.data.email === email_input) {
+                        //alert('success')
+                        navigate('/home');
+                    }
+                    //navigate('/home');
+
+                })
+                .catch((error) => {
+                    console.log('log error ' + error);
+
+                });
+        }
+        else {
+            setErrMsg('Username or password is wrong')
+        }
+
     };
 
 
@@ -59,21 +68,20 @@ const Login_page = () => {
                         <p id='responsive_margin'>2024 SUMMER OLYMPICS</p>
                     </div>
                     <div className='form_login'>
-                        <h1>EMAIL</h1>
+                        <h1>MAIL</h1>
                         <input type="email" id='email_input' onChange={handleEmail} />
-                        <h1>MOT DE PASSE</h1>
+                        <h1>PASSWORD</h1>
                         <input type="password" id='password_input' onChange={handlePassword} />
                         <div className="error_mssg_login">
                             <span className='error_mssg_login'>{errMsg}</span>
                         </div>
                         <div className="button_login">
-                            <button id='login_button' onClick={handleSubmit}>SE CONNECTER</button>
-                            <button id='register_button' onClick={handleRegister}>S'ENREGISTRER</button>
+                            <button id='login_button' onClick={handleSubmit}>LOGIN</button>
+                            <button id='register_button' onClick={handleRegister}>REGISTER</button>
                         </div>
                     </div>
                 </div>
             </div>
-            <Footer />
         </>
     );
 };

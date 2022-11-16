@@ -6,7 +6,7 @@
 }
 
 .nav_bar {
-    height: 11vw;
+    height: 6vw;
     width: 100%;
     background-color: $bleu_nuit;
     position: sticky;
@@ -24,10 +24,11 @@
 }
 
 .logo_site img {
-    width: 35vw;
+    width: 25vw;
     height: auto;
-    padding-left: 5%;
-    padding-top: 2%;
+    margin-bottom: 20%;
+    //padding-left: 5%;
+    //padding-top: 2%;
 }
 
 .but_nav {
@@ -35,14 +36,16 @@
     flex-wrap: nowrap;
     justify-content: space-evenly;
     width: 50%;
-    padding-top: 0%;
+
     //background-color: red;
 }
 
+/*
 #logo_nav {
-    padding-top: 2%;
-    border-bottom-right-radius: 15px;
-}
+    //padding-top: 2%;
+    //border-bottom-right-radius: 15px;
+    //margin-bottom: 50%;
+}*/
 
 .but_nav h1 {
     color: $blanc;
@@ -55,7 +58,7 @@
     color: $blanc;
     font-family: $medium;
     text-decoration: underline;
-    font-size: 2vw;
+    font-size: 1.5vw;
     background-color: transparent;
     border: none;
     transition: 0.2s;
@@ -76,12 +79,16 @@
     font-weight: bold;
     font-size: 2vw;
     margin-right: 3%;
+
 }
 
 .slider_site {
     position: relative;
     margin-top: 5%;
     margin-bottom: 10%;
+    width: 80%;
+    margin-left: 10%;
+    //border-radius: 8px;
 }
 
 /*
@@ -200,11 +207,23 @@
     flex-wrap: wrap;
     border-radius: 8px;
     margin-bottom: 8%;
+    margin-top: 15%;
     //background-color: blue;
     //justify-content: center;
 }
 
+.moment {
+    width: 100%;
+    font-size: 2vw;
+    color: $graphique1;
+    text-decoration: underline 0.5vw $rouge_olympique;
+    font-family: $medium;
+    margin-top: 3%;
+    text-align: center;
+}
+
 .footer {
+
     /*
     bottom: 1000;
     position: relative;

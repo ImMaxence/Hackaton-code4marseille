@@ -39,7 +39,7 @@ const Login_page = () => {
                 });
         }
         else {
-            setErrMsg('Username or password is wrong')
+            setErrMsg('Email ou mot de passe incorrect')
         }
 
     };
@@ -68,16 +68,16 @@ const Login_page = () => {
                         <p id='responsive_margin'>2024 SUMMER OLYMPICS</p>
                     </div>
                     <div className='form_login'>
-                        <h1>MAIL</h1>
+                        <h1>EMAIL</h1>
                         <input type="email" id='email_input' onChange={handleEmail} />
-                        <h1>PASSWORD</h1>
+                        <h1>MOT DE PASSE</h1>
                         <input type="password" id='password_input' onChange={handlePassword} />
                         <div className="error_mssg_login">
                             <span className='error_mssg_login'>{errMsg}</span>
                         </div>
                         <div className="button_login">
-                            <button id='login_button' onClick={handleSubmit}>LOGIN</button>
-                            <button id='register_button' onClick={handleRegister}>REGISTER</button>
+                            <button id='login_button' onClick={handleSubmit}>Connexion</button>
+                            <button id='register_button' onClick={handleRegister}>S'enregistrer</button>
                         </div>
                     </div>
                 </div>
